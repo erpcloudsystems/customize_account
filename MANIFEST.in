@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include customize_account *.css
+recursive-include customize_account *.csv
+recursive-include customize_account *.html
+recursive-include customize_account *.ico
+recursive-include customize_account *.js
+recursive-include customize_account *.json
+recursive-include customize_account *.md
+recursive-include customize_account *.png
+recursive-include customize_account *.py
+recursive-include customize_account *.svg
+recursive-include customize_account *.txt
+recursive-exclude customize_account *.pyc

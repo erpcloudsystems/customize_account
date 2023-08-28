@@ -1,0 +1,61 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2022-02-04 20:34:34.735619",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "installment_period",
+  "interest_ratio",
+  "advance_payment",
+  "advance_payment_type",
+  "offer_expiry_date"
+ ],
+ "fields": [
+  {
+   "default": "0",
+   "fieldname": "installment_period",
+   "fieldtype": "Int",
+   "in_list_view": 1,
+   "label": "Installment Period / Per Month"
+  },
+  {
+   "fieldname": "interest_ratio",
+   "fieldtype": "Percent",
+   "in_list_view": 1,
+   "label": "Interest Ratio"
+  },
+  {
+   "default": "0",
+   "fieldname": "advance_payment",
+   "fieldtype": "Float",
+   "in_list_view": 1,
+   "label": "Advance Payment"
+  },
+  {
+   "fieldname": "offer_expiry_date",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "label": "Offer Expiry Date"
+  },
+  {
+   "fieldname": "advance_payment_type",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Advance Payment Type",
+   "options": "Percentage\nAmount"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2022-02-04 20:57:41.920908",
+ "modified_by": "Administrator",
+ "module": "Customize Account",
+ "name": "Installment Offer Table",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC"
+}
